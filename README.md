@@ -16,7 +16,7 @@ Bundles:
 | `@plurnk/plurnk-providers-cloudflare` | cloudflare |
 | `@plurnk/plurnk-providers-xai` | xai |
 
-Standard OpenAI-compatible providers (`openai`, `groq`, `deepseek`, `mistral`, `together`, `fireworks`, `deepinfra`) need **no** package — the framework instantiates them directly from a frozen table. This bundle is only the bespoke daughters.
+Standard OpenAI-compatible providers (`openai`, `groq`, `deepseek`, `mistral`, `together`, `fireworks`, `deepinfra`, `anthropic`, `bedrock`) need **no** package — the framework instantiates them directly from a frozen table (first-party Claude and AWS Bedrock included, via their bearer OpenAI-compat endpoints). This bundle is only the bespoke daughters.
 
 ## Why a bundle, not framework deps
 
