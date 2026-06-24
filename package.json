@@ -1,6 +1,6 @@
 {
     "name": "@plurnk/plurnk-providers-all",
-    "version": "0.8.1",
+    "version": "0.9.0",
     "description": "Batteries-included bundle for plurnk-service's provider resolution — installs every first-party @plurnk/plurnk-providers-* daughter (flat) so one dependency surfaces them all to discovery.",
     "keywords": [
         "plurnk",
@@ -18,7 +18,7 @@
         "url": "git+https://github.com/plurnk/plurnk-providers-all.git"
     },
     "engines": {
-        "node": ">=25"
+        "node": ">=26"
     },
     "license": "MIT",
     "author": "@wikitopian",
@@ -30,10 +30,10 @@
         "README.md"
     ],
     "dependencies": {
-        "@plurnk/plurnk-providers-cloudflare": "0.8.1",
-        "@plurnk/plurnk-providers-google": "0.8.1",
-        "@plurnk/plurnk-providers-ollama": "0.8.1",
-        "@plurnk/plurnk-providers-openrouter": "0.8.0",
-        "@plurnk/plurnk-providers-xai": "0.8.0"
+        "@plurnk/plurnk-providers-cloudflare": "0.9.0",
+        "@plurnk/plurnk-providers-google": "0.9.0",
+        "@plurnk/plurnk-providers-ollama": "0.9.0",
+        "@plurnk/plurnk-providers-openrouter": "0.9.0",
+        "@plurnk/plurnk-providers-xai": "0.9.0"
     }
 }
